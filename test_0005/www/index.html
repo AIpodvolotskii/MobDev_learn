@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Calc</title>
+		<style>
+			button {
+				width: 200px;
+				height: 50px;
+			}
+		</style>
+		 <script type="text/javascript" src="calc.js"></script>
+    </head>
+    <body>
+		<div>
+			<label>1:</label><input id="t1" type="tel">
+		</div>
+		<div>
+			<label>2:</label><input id="t2" type="tel">
+		</div>
+		<div>
+			<label>result:</label><input id="res">
+		</div>
+		<button onClick="sum()" style width="100" height="75">Сложить</button>
+		<button onClick="sub()">Вычесть</button>
+		<button onClick="mul()">Умножить</button>
+		<button onClick="div()">Делить</button>
+		<button onClick="sqrt()">Корень</button>
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
